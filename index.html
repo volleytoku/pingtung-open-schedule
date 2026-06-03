@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AVC Beach Tour 2nd Pingtung Open 2026</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Helvetica Neue",Arial,sans-serif;background:#f0f4f8;color:#1a1a2e}
+header{background:linear-gradient(135deg,#1a4a2e,#2d7a4f);color:#fff;padding:18px 24px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+header h1{font-size:1.15rem;font-weight:700;margin-bottom:4px}
+.subtitle{font-size:.78rem;opacity:.8;margin-bottom:10px}
+.tabs{display:flex;gap:4px;flex-wrap:wrap}
+.tab{padding:8px 16px;border:none;border-radius:6px 6px 0 0;cursor:pointer;font-size:.82rem;font-weight:600;background:rgba(255,255,255,.15);color:rgba(255,255,255,.75);transition:all .2s}
+.tab:hover{background:rgba(255,255,255,.25);color:#fff}
+.tab.active{background:#fff;color:#1a4a2e}
+.day-content{display:none;padding:16px}
+.day-content.active{display:block}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px;font-size:.78rem}
+.legend-item{padding:4px 10px;border-radius:20px;font-weight:600}
+.lw{background:#ffe0ec;color:#8b003b;border:1px solid #f0a0c0}
+.lm{background:#d6eeff;color:#003080;border:1px solid #90c0f0}
+.table-wrap{overflow-x:auto;border-radius:10px;box-shadow:0 4px 16px rgba(0,0,0,.12);background:#fff;margin-bottom:20px}
+.schedule{border-collapse:collapse;width:100%;min-width:680px;table-layout:fixed}
+.schedule th{background:#1a4a2e;color:#fff;padding:11px 6px;font-size:.8rem;font-weight:700;text-align:center;border:1px solid #2d6040}
+.schedule th:first-child{width:58px}
+.schedule th:last-child{background:#113322}
+.time-cell{text-align:center;font-size:.75rem;font-weight:700;color:#1a4a2e;background:#eef5f1;border:1px solid #c8dfd0;vertical-align:top;padding:3px 2px;white-space:nowrap}
+.time-cell.sub{font-weight:400;color:#aab;font-size:.65rem}
+.match{vertical-align:middle;border:1px solid rgba(0,0,0,.08);transition:filter .15s}
+.match:hover{filter:brightness(.93)}
+.match-w{background:#fff0f5}.match-m{background:#f0f7ff}
+.match-inner{padding:6px 7px;display:flex;flex-direction:column;justify-content:center;gap:3px;height:100%}
+.match-badge{font-size:.62rem;font-weight:800;padding:2px 6px;border-radius:10px;margin-bottom:2px;align-self:flex-start}
+.badge-w{background:#ffc0d8;color:#700030}.badge-m{background:#b0d4f8;color:#00266a}
+.match-no{font-size:.62rem;color:#888;font-weight:600}
+.match-team{font-size:.74rem;font-weight:700;line-height:1.25}
+.match-country{font-size:.62rem;color:#888;font-weight:500}
+.match-vs{font-size:.62rem;color:#aaa;text-align:center}
+.empty-cell{background:#fafbfd;border:1px solid #e8eef5}
+.break-row{text-align:center;background:#e4eed8;color:#3a6640;font-weight:700;font-size:.8rem;letter-spacing:.12em;padding:9px;border:1px solid #bdd4c0}
+.tbd-box{background:#f5f5f5;border:2px dashed #ccc;border-radius:10px;padding:32px;text-align:center;color:#888;font-size:.9rem;margin-top:8px}
+.tbd-box strong{display:block;font-size:1.1rem;margin-bottom:8px;color:#555}
+@media(max-width:600px){.tab{padding:7px 10px;font-size:.78rem}.day-content{padding:10px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🏐 AVC Beach Tour 2nd Pingtung Open 2026</h1>
+  <div class="subtitle">Women's &amp; Men's Pool Play · June 4–7, 2026 · Pingtung, Taiwan</div>
+  <div class="tabs">
+    <button class="tab active" onclick="show('day4',this)">Jun 4 (Thu)</button>
+    <button class="tab" onclick="show('day5',this)">Jun 5 (Fri)</button>
+    <button class="tab" onclick="show('day6',this)">Jun 6 (Sat)</button>
+    <button class="tab" onclick="show('day7',this)">Jun 7 (Sun)</button>
+  </div>
+</header>
+
+<!-- ===== DAY 1 — June 4 ===== -->
+<div id="day4" class="day-content active">
+  <div class="legend"><span class="legend-item lw">● Women</span><span class="legend-item lm">● Men</span></div>
+  <div class="table-wrap"><table class="schedule"><thead><tr>
+    <th>Time</th><th>Court 2</th><th>Court 3</th><th>Court 4</th><th>Centre Court</th>
+  </tr></thead><tbody>
+
+  <!-- 08:30 Women -->
+  <tr>
+    <td class="time-cell" rowspan="5">08:30</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool C</div>
+      <div class="match-no">#3W</div>
+      <div class="match-team">Ren/Non</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Eugenia/Chen</div><div class="match-country">GUM</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool G</div>
+      <div class="match-no">#7W</div>
+      <div class="match-team">Naraphornrapat/Worapeerachayakorn</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">W.T. TO/W.M. To</div><div class="match-country">HKG</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool F</div>
+      <div class="match-no">#6W</div>
+      <div class="match-team">Rondina/Pons</div><div class="match-country">PHI</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Boon/Chan T.W.</div><div class="match-country">SGP</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool E</div>
+      <div class="match-no">#5W</div>
+      <div class="match-team">Milutinovic/Rayner</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">PAN T.Y./YU Y.H.</div><div class="match-country">TPE</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">08:40</td></tr>
+  <tr><td class="time-cell sub">08:50</td></tr>
+  <tr><td class="time-cell sub">09:00</td></tr>
+  <tr><td class="time-cell sub">09:10</td></tr>
+
+  <!-- 09:20 Women -->
+  <tr>
+    <td class="time-cell" rowspan="5">09:20</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool D</div>
+      <div class="match-no">#4W</div>
+      <div class="match-team">Clancy/Fejes</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">LIU P.H./Wang S.T.</div><div class="match-country">TPE</div>
+    </div></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool H</div>
+      <div class="match-no">#8W</div>
+      <div class="match-team">KUNG S.W./YEH H.T.</div><div class="match-country">TPE</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Chong E.H.H./Ang H.Y.</div><div class="match-country">SGP</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">09:30</td></tr>
+  <tr><td class="time-cell sub">09:40</td></tr>
+  <tr><td class="time-cell sub">09:50</td></tr>
+  <tr><td class="time-cell sub">10:00</td></tr>
+
+  <!-- 10:10 Men -->
+  <tr>
+    <td class="time-cell" rowspan="5">10:10</td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool E</div>
+      <div class="match-no">#5M</div>
+      <div class="match-team">KAI/Adachi</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">CHOU Y.C./CHUANG Y.H.</div><div class="match-country">TPE</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool G</div>
+      <div class="match-no">#7M</div>
+      <div class="match-team">K. Dunwinit/N. Banlue</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Chaitanya/Raju</div><div class="match-country">IND</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool F</div>
+      <div class="match-no">#6M</div>
+      <div class="match-team">M.Wachirawit/T.Pithak</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Josh/Jovan</div><div class="match-country">SGP</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool H</div>
+      <div class="match-no">#8M</div>
+      <div class="match-team">CHUNG P.H./HU C.G.</div><div class="match-country">TPE</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Imam/Ferza</div><div class="match-country">INA</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">10:20</td></tr>
+  <tr><td class="time-cell sub">10:30</td></tr>
+  <tr><td class="time-cell sub">10:40</td></tr>
+  <tr><td class="time-cell sub">10:50</td></tr>
+
+  <tr><td colspan="5" class="break-row">LUNCH BREAK</td></tr>
+
+  <!-- 14:00 Women -->
+  <tr>
+    <td class="time-cell" rowspan="5">14:00</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool B</div>
+      <div class="match-no">#18W</div>
+      <div class="match-team">Fleming/Alchin</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">N.L. Tsang/M.C. Wong</div><div class="match-country">HKG</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool A</div>
+      <div class="match-no">#17W</div>
+      <div class="match-team">Shiba/Reika</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Cadence/Rachael</div><div class="match-country">MAS</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool E</div>
+      <div class="match-no">#21W</div>
+      <div class="match-team">Milutinovic/Rayner</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Progella/Pagara</div><div class="match-country">PHI</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool C</div>
+      <div class="match-no">#19W</div>
+      <div class="match-team">Ren/Non</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">S.Patcharaporn/K.Somruedee</div><div class="match-country">THA</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">14:10</td></tr>
+  <tr><td class="time-cell sub">14:20</td></tr>
+  <tr><td class="time-cell sub">14:30</td></tr>
+  <tr><td class="time-cell sub">14:40</td></tr>
+
+  <!-- 14:50 Women -->
+  <tr>
+    <td class="time-cell" rowspan="5">14:50</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool D</div>
+      <div class="match-no">#20W</div>
+      <div class="match-team">Clancy/Fejes</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Hinton/Green</div><div class="match-country">NZL</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool G</div>
+      <div class="match-no">#23W</div>
+      <div class="match-team">Naraphornrapat/Worapeerachayakorn</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Riko/Take</div><div class="match-country">JPN</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool F</div>
+      <div class="match-no">#22W</div>
+      <div class="match-team">Rondina/Pons</div><div class="match-country">PHI</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Tiplady/Rawle</div><div class="match-country">NZL</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool H</div>
+      <div class="match-no">#24W</div>
+      <div class="match-team">KUNG S.W./YEH H.T.</div><div class="match-country">TPE</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Rodriguez/Villapando</div><div class="match-country">PHI</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">15:00</td></tr>
+  <tr><td class="time-cell sub">15:10</td></tr>
+  <tr><td class="time-cell sub">15:20</td></tr>
+  <tr><td class="time-cell sub">15:30</td></tr>
+
+  <!-- 15:40 Men -->
+  <tr>
+    <td class="time-cell" rowspan="5">15:40</td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool D</div>
+      <div class="match-no">#20M</div>
+      <div class="match-team">Takahashi/Ikeda</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Dhia/Ali</div><div class="match-country">KSA</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool C</div>
+      <div class="match-no">#19M</div>
+      <div class="match-team">Nicolaidis/Carracher</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Teh/Yongjian</div><div class="match-country">MAS</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool B</div>
+      <div class="match-no">#18M</div>
+      <div class="match-team">Potts/Pearse</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">P.L. WONG/Chong</div><div class="match-country">HKG</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool A</div>
+      <div class="match-no">#17M</div>
+      <div class="match-team">Hodges/Hood</div><div class="match-country">AUS</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Low/Yong Xuan</div><div class="match-country">MAS</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">15:50</td></tr>
+  <tr><td class="time-cell sub">16:00</td></tr>
+  <tr><td class="time-cell sub">16:10</td></tr>
+  <tr><td class="time-cell sub">16:20</td></tr>
+
+  <!-- 16:30 Men -->
+  <tr>
+    <td class="time-cell" rowspan="5">16:30</td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool F</div>
+      <div class="match-no">#22M</div>
+      <div class="match-team">M.Wachirawit/T.Pithak</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Krajci/Julian</div><div class="match-country">NZL</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool G</div>
+      <div class="match-no">#23M</div>
+      <div class="match-team">K. Dunwinit/N. Banlue</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Malki/Takuma</div><div class="match-country">JPN</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool E</div>
+      <div class="match-no">#21M</div>
+      <div class="match-team">KAI/Adachi</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">L.F. Lee/C.H. Lee</div><div class="match-country">HKG</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool H</div>
+      <div class="match-no">#24M</div>
+      <div class="match-team">CHUNG P.H./HU C.G.</div><div class="match-country">TPE</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Sadlier/Smith</div><div class="match-country">NZL</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">16:40</td></tr>
+  <tr><td class="time-cell sub">16:50</td></tr>
+  <tr><td class="time-cell sub">17:00</td></tr>
+  <tr><td class="time-cell sub">17:10</td></tr>
+
+  </tbody></table></div>
+</div>
+
+<!-- ===== DAY 2 — June 5 ===== -->
+<div id="day5" class="day-content">
+  <div class="legend"><span class="legend-item lw">● Women</span><span class="legend-item lm">● Men</span></div>
+  <div class="table-wrap"><table class="schedule"><thead><tr>
+    <th>Time</th><th>Court 2</th><th>Court 3</th><th>Court 4</th><th>Centre Court</th>
+  </tr></thead><tbody>
+
+  <!-- 08:30 Women -->
+  <tr>
+    <td class="time-cell" rowspan="5">08:30</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool C</div>
+      <div class="match-no">#11W</div>
+      <div class="match-team">S.Patcharaporn/K.Somruedee</div><div class="match-country">THA</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Eugenia/Chen</div><div class="match-country">GUM</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool G</div>
+      <div class="match-no">#15W</div>
+      <div class="match-team">Riko/Take</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">W.T. TO/W.M. To</div><div class="match-country">HKG</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool F</div>
+      <div class="match-no">#14W</div>
+      <div class="match-team">Tiplady/Rawle</div><div class="match-country">NZL</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Boon/Chan T.W.</div><div class="match-country">SGP</div>
+    </div></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool D</div>
+      <div class="match-no">#12W</div>
+      <div class="match-team">Hinton/Green</div><div class="match-country">NZL</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">LIU P.H./Wang S.T.</div><div class="match-country">TPE</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">08:40</td></tr>
+  <tr><td class="time-cell sub">08:50</td></tr>
+  <tr><td class="time-cell sub">09:00</td></tr>
+  <tr><td class="time-cell sub">09:10</td></tr>
+
+  <!-- 09:20 Women -->
+  <tr>
+    <td class="time-cell" rowspan="5">09:20</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool H</div>
+      <div class="match-no">#16W</div>
+      <div class="match-team">Rodriguez/Villapando</div><div class="match-country">PHI</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Chong E.H.H./Ang H.Y.</div><div class="match-country">SGP</div>
+    </div></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · Pool E</div>
+      <div class="match-no">#13W</div>
+      <div class="match-team">Progella/Pagara</div><div class="match-country">PHI</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">PAN T.Y./YU Y.H.</div><div class="match-country">TPE</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">09:30</td></tr>
+  <tr><td class="time-cell sub">09:40</td></tr>
+  <tr><td class="time-cell sub">09:50</td></tr>
+  <tr><td class="time-cell sub">10:00</td></tr>
+
+  <!-- 10:10 Men -->
+  <tr>
+    <td class="time-cell" rowspan="5">10:10</td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool F</div>
+      <div class="match-no">#14M</div>
+      <div class="match-team">Krajci/Julian</div><div class="match-country">NZL</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Josh/Jovan</div><div class="match-country">SGP</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool G</div>
+      <div class="match-no">#15M</div>
+      <div class="match-team">Malki/Takuma</div><div class="match-country">JPN</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Chaitanya/Raju</div><div class="match-country">IND</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool H</div>
+      <div class="match-no">#16M</div>
+      <div class="match-team">Sadlier/Smith</div><div class="match-country">NZL</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Imam/Ferza</div><div class="match-country">INA</div>
+    </div></td>
+    <td rowspan="5" class="match match-m"><div class="match-inner">
+      <div class="match-badge badge-m">Men · Pool E</div>
+      <div class="match-no">#13M</div>
+      <div class="match-team">L.F. Lee/C.H. Lee</div><div class="match-country">HKG</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">CHOU Y.C./CHUANG Y.H.</div><div class="match-country">TPE</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">10:20</td></tr>
+  <tr><td class="time-cell sub">10:30</td></tr>
+  <tr><td class="time-cell sub">10:40</td></tr>
+  <tr><td class="time-cell sub">10:50</td></tr>
+
+  </tbody></table></div>
+</div>
+
+<!-- ===== DAY 3 — June 6 ===== -->
+<div id="day6" class="day-content">
+  <div class="tbd-box">
+    <strong>Day 3 — Elimination Round (June 6)</strong>
+    Schedule will be determined after pool play concludes on June 5.
+  </div>
+</div>
+
+<!-- ===== DAY 4 — June 7 ===== -->
+<div id="day7" class="day-content">
+  <div class="tbd-box">
+    <strong>Day 4 — Finals (June 7)</strong>
+    Schedule will be determined after elimination rounds on June 6.
+  </div>
+</div>
+
+<script>
+function show(id,btn){
+  document.querySelectorAll('.day-content').forEach(d=>d.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById(id).classList.add('active');btn.classList.add('active');
+}
+</script>
+</body></html>
