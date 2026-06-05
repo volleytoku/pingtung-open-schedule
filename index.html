@@ -40,6 +40,16 @@ header h1{font-size:1.15rem;font-weight:700;margin-bottom:4px}
 .break-row{text-align:center;background:#e4eed8;color:#3a6640;font-weight:700;font-size:.8rem;letter-spacing:.12em;padding:9px;border:1px solid #bdd4c0}
 .tbd-box{background:#f5f5f5;border:2px dashed #ccc;border-radius:10px;padding:32px;text-align:center;color:#888;font-size:.9rem;margin-top:8px}
 .tbd-box strong{display:block;font-size:1.1rem;margin-bottom:8px;color:#555}
+.section-title{font-size:.88rem;font-weight:700;color:#1a4a2e;margin:16px 0 8px;padding-left:10px;border-left:4px solid #2d7a4f}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px;margin-bottom:20px}
+.card{border-radius:10px;padding:10px 13px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.card-m{background:#f0f7ff;border:1px solid #a0c4f0}
+.card-w{background:#fff0f5;border:1px solid #f0b0cc}
+.card-badge{font-size:.62rem;font-weight:800;padding:2px 6px;border-radius:10px;margin-bottom:5px;display:inline-block}
+.card-team{font-size:.8rem;font-weight:700;line-height:1.3}
+.card-cty{font-size:.62rem;color:#888;font-weight:500}
+.card-vs{font-size:.62rem;color:#aaa;text-align:center;margin:4px 0}
+.card-no{font-size:.62rem;color:#999;margin-top:4px}
 @media(max-width:600px){.tab{padding:7px 10px;font-size:.78rem}.day-content{padding:10px}}
 </style>
 </head>
@@ -575,9 +585,91 @@ header h1{font-size:1.15rem;font-weight:700;margin-bottom:4px}
 
 <!-- ===== DAY 3 — June 6 ===== -->
 <div id="day6" class="day-content">
-  <div class="tbd-box">
-    <strong>Day 3 — Elimination Round (June 6)</strong>
-    Schedule will be determined after pool play concludes on June 5.
+  <div class="legend"><span class="legend-item lw">● Women</span><span class="legend-item lm">● Men</span></div>
+
+  <div class="section-title">Women's Quarterfinals</div>
+  <div class="table-wrap"><table class="schedule"><thead><tr>
+    <th>Time</th><th>Court 2</th><th>Court 3</th><th>Court 4</th><th>Centre Court</th>
+  </tr></thead><tbody>
+
+  <!-- 08:30 Women QF -->
+  <tr>
+    <td class="time-cell" rowspan="5">08:30</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · QF</div>
+      <div class="match-no">#34W</div>
+      <div class="match-team">Riko/Take</div><div class="match-country">JPN [10]</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Clancy/Fejes</div><div class="match-country">AUS [4]</div>
+    </div></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · QF</div>
+      <div class="match-no">#33W</div>
+      <div class="match-team">Shiba/Reika</div><div class="match-country">JPN [1]</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Tiplady/Rawle</div><div class="match-country">NZL [11]</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">08:40</td></tr>
+  <tr><td class="time-cell sub">08:50</td></tr>
+  <tr><td class="time-cell sub">09:00</td></tr>
+  <tr><td class="time-cell sub">09:10</td></tr>
+
+  <!-- 09:20 Women QF -->
+  <tr>
+    <td class="time-cell" rowspan="5">09:20</td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · QF</div>
+      <div class="match-no">#36W</div>
+      <div class="match-team">Rondina/Pons</div><div class="match-country">PHI [6]</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Fleming/Alchin</div><div class="match-country">AUS [2]</div>
+    </div></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="empty-cell"></td>
+    <td rowspan="5" class="match match-w"><div class="match-inner">
+      <div class="match-badge badge-w">Women · QF</div>
+      <div class="match-no">#35W</div>
+      <div class="match-team">Ren/Non</div><div class="match-country">JPN [3]</div>
+      <div class="match-vs">vs</div>
+      <div class="match-team">Naraphornrapat/Worapeerachayakorn</div><div class="match-country">THA [7]</div>
+    </div></td>
+  </tr>
+  <tr><td class="time-cell sub">09:30</td></tr>
+  <tr><td class="time-cell sub">09:40</td></tr>
+  <tr><td class="time-cell sub">09:50</td></tr>
+  <tr><td class="time-cell sub">10:00</td></tr>
+
+  </tbody></table></div>
+
+  <div class="section-title">Men's Quarterfinals — Time TBD</div>
+  <div class="card-grid">
+    <div class="card card-m">
+      <span class="card-badge badge-m">Men · QF · #33M</span>
+      <div class="card-team">Hodges/Hood</div><div class="card-cty">AUS [1]</div>
+      <div class="card-vs">vs</div>
+      <div class="card-team">M.Wachirawit/T.Pithak</div><div class="card-cty">THA [6]</div>
+    </div>
+    <div class="card card-m">
+      <span class="card-badge badge-m">Men · QF · #34M</span>
+      <div class="card-team">Malki/Takuma</div><div class="card-cty">JPN [10]</div>
+      <div class="card-vs">vs</div>
+      <div class="card-team">K. Dunwinit/N. Banlue</div><div class="card-cty">THA [7]</div>
+    </div>
+    <div class="card card-m">
+      <span class="card-badge badge-m">Men · QF · #35M</span>
+      <div class="card-team">Nicolaidis/Carracher</div><div class="card-cty">AUS [3]</div>
+      <div class="card-vs">vs</div>
+      <div class="card-team">KAI/Adachi</div><div class="card-cty">JPN [5]</div>
+    </div>
+    <div class="card card-m">
+      <span class="card-badge badge-m">Men · QF · #36M</span>
+      <div class="card-team">Sadlier/Smith</div><div class="card-cty">NZL [9]</div>
+      <div class="card-vs">vs</div>
+      <div class="card-team">Potts/Pearse</div><div class="card-cty">AUS [2]</div>
+    </div>
   </div>
 </div>
 
